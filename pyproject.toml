@@ -74,7 +74,7 @@ azure = ["dvc-azure>=2.23.0"]
 dev = ["dvc[azure,gdrive,gs,hdfs,lint,oss,s3,ssh,tests,webdav,webhdfs]"]
 gdrive = ["dvc-gdrive==2.20"]
 gs = ["dvc-gs==2.22.1"]
-hdfs = ["dvc-hdfs==2.19"]
+hdfs = ["dvc-hdfs==3.0.0"]
 lint = [
     "mypy==1.7.0",
     "pandas-stubs",
